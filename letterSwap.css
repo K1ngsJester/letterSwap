@@ -1,0 +1,38 @@
+#introScreen{
+  display: block;
+}
+h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+#StartProg{
+  display: block;
+}
+.colorBox{
+  background-image: linear-gradient(to right, red, yellow);
+  width: 300px;
+  height: 300px;
+}
+#words1{
+  display: none;
+  font-weight: bold;
+}
+#SwapLetters{
+  display: none;
+}
+#swapScreen{
+  display: none;
+}
+#swapScreen h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 50px;
+}
+#swapScreen .colorBox{
+  background-image: linear-gradient(to left, green, blue);
+}
+#swapScreen ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 50px;
+}
